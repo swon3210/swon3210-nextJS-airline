@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  ssr:
+    build: ./ssr
+    ports:
+      - '80:3000'
+    # 컨테이너가 작동을 멈췄을 경우
+    # 자동으로 재시작
+    restart: on-failure
