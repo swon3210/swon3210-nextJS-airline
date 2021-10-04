@@ -1,0 +1,16 @@
+.spin-button {
+  font-size: 24px;
+  width: 44px;
+  height: 44px;
+}
+
+.passenger-count-input {
+  width: 88px;
+  height: 44px;
+  padding-left: 14px;
+  margin: 0 12px;
+  font-size: 24px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #000000;
+}

@@ -1,0 +1,20 @@
+.navigator {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navigator-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigator-list-item {
+  list-style: none;
+}
+
+.navigator-list-item a {
+  text-decoration: none;
+  font-size: 19px;
+  color: gray;
+}
